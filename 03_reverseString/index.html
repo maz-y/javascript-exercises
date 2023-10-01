@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function reverseString() {
+      let inputString = "hello there"
+      let outputString = ""
+
+      for (i=inputString.length;i>=0;i--){
+        outputString = outputString + inputString.charAt(i);
+      }
+      console.log(outputString)
+      
+      inputString = "hello"
+      outputString = ""
+      for (i=inputString.length;i>=0;i--){
+        outputString = outputString + inputString.charAt(i);
+      }
+      console.log(outputString)  
+
+      inputString = "123! abc!"
+      outputString = ""
+      for (i=inputString.length;i>=0;i--){
+        outputString = outputString + inputString.charAt(i);
+      }
+      console.log(outputString)  
+
+    };
+
+    reverseString()
+  </script>
+  
+</body>
+</html>
